@@ -1,0 +1,28 @@
+@'
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local databases
+*.sqlite3
+
+# Django generated files
+staticfiles/
+*.log
+
+# IDE
+.vscode/
+.idea/
+'@ | Set-Content -Encoding utf8 .gitignore
